@@ -1,0 +1,129 @@
+[
+  {
+    "id": 1,
+    "name": "Cải Thảo",
+    "price": 25000,
+    "oldPrice": 30000,
+    "discount": "17%",
+    "images": ["images/bap-cai-thao-1.jpg", "images/bap-cai-thao-1.jpg"],
+    "desc": ["Tươi ngon", "Hữu cơ", "Không hóa chất"]
+  },
+  {
+    "name": "Cà Chua",
+    "image": "images/cachua.png",
+    "images": [
+      "images/cachua.png",
+      "images/cachua.png",
+      "images/cachua.png"
+    ],
+    "price": 11000,
+    "oldPrice": 30000,
+    "discount": "8%",
+    "desc": "Cà chua mọng nước, giàu vitamin."
+  },
+  {
+    "name": "Khoai Tây",
+    "image": "images/khoaitay.png",
+    "images": [
+      "images/khoaitay.png",
+      "images/khoaitay.png",
+      "images/khoaitay.png"
+    ],
+    "price": 12000,
+    "oldPrice": 30000,
+    "discount": "8%",
+    "desc": "Khoai tây Đà Lạt, ngon, sạch."
+  },
+  {
+    "name": "Ớt Hiểm",
+    "image": "images/ot.png",
+    "images": [
+      "images/ot.png",
+      "images/ot.png",
+      "images/ot.png"
+    ],
+    "price": 13000,
+    "oldPrice": 30000,
+    "discount": "8%",
+    "desc": "Ớt hiểm cay nồng, tự nhiên."
+  },
+  {
+    "name": "Chanh",
+    "image": "images/hinh1.png",
+    "images": [
+      "images/hinh1.png",
+      "images/hinh1.png",
+      "images/hinh1.png"
+    ],
+    "price": 11000,
+    "oldPrice": 30000,
+    "discount": "8%",
+    "desc": "Chanh tươi, mọng nước, vị thanh."
+  },
+  {
+    "name": "Củ Cải",
+    "image": "images/cachua.png",
+    "images": [
+      "images/cachua.png",
+      "images/cachua.png",
+      "images/cachua.png"
+    ],
+    "price": 11000,
+    "oldPrice": 30000,
+    "discount": "8%",
+    "desc": "Củ cải trắng, giòn, ngọt , tươi sạch."
+  },
+  {
+    "name": "Khoai Môn",
+    "image": "images/khoaimon.png",
+    "images": [
+      "images/khoaimon.png",
+      "images/khoaimon.png",
+      "images/khoaimon.png"
+    ],
+    "price": 11000,
+    "oldPrice": 30000,
+    "discount": "8%",
+    "desc": "Khoai môn bở, thơm, sạch."
+  },
+  {
+    "name": "Khổ Qua",
+    "image": "images/khoqua.png",
+    "images": [
+      "images/khoqua.png",
+      "images/khoqua.png",
+      "images/khoqua.png"
+    ],
+    "price": 11000,
+    "oldPrice": 30000,
+    "discount": "8%",
+    "desc": "Khổ qua xanh, vị đắng nhẹ."
+  },
+  {
+    "name": "Bí Đỏ",
+    "image": "images/bido.png",
+    "images": [
+      "images/bido.png",
+      "images/bido.png",
+      "images/bido.png"
+    ],
+    "price": 11000,
+    "oldPrice": 30000,
+    "discount": "8%",
+    "desc": "Bí đỏ ngọt, giàu dinh dưỡng."
+  },
+  {
+    "name": "Ớt Chuông",
+    "image": "images/otchuong.png",
+    "images": [
+      "images/otchuong.png",
+      "images/otchuong.png",
+      "images/otchuong.png"
+    ],
+    "price": 11000,
+    "oldPrice": 30000,
+    "discount": "8%",
+    "desc": "Ớt chuông nhiều màu, giòn ngọt."
+  }
+] 
+

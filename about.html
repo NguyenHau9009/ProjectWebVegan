@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Giới thiệu về Vegan Shop - Sứ mệnh, giá trị, đội ngũ và cam kết chất lượng thực phẩm sạch, organic."/>
+    <meta name="keywords" content="about, giới thiệu, vegan shop, sứ mệnh, giá trị, thực phẩm sạch" />
+    <title>Giới thiệu về Vegan Shop</title>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Header ngoài swup -->
+    <header class="header-main fixed-top">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">
+                    <img src="images/logovegan-removebg-preview.png" alt="Vegan Shop Logo" height="80">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Trang chủ</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="about.html">Giới thiệu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="product.html">Sản phẩm</a></li>
+                        <li class="nav-item"><a class="nav-link" href="review2.html">Đánh Giá</a></li>
+                        <li class="nav-item"><a class="nav-link" href="lienhe.html">Liên hệ</a></li>
+                    </ul>
+                    <div class="nav-actions">
+                        <button class="btn-user" id="btn-user" aria-label="Tài khoản"><i class="fas fa-user"></i></button>
+                        <button class="btn-search" aria-label="Tìm kiếm"><i class="fas fa-search"></i></button>
+                            <span class="cart-count" id="cart-count">0</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Swup container chỉ bọc nội dung chính -->
+    <div id="swup" class="transition-fade">
+        <!-- Giới thiệu dự án -->
+        <section class="py-5 mt-5 fade-in">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0 text-center">
+                        <img src="images/about-1.png" alt="Vegan Shop" class="img-slide-in slide-in-left" style="max-width: 350px; border-radius: 1.2rem; box-shadow: 0 8px 32px rgba(25,135,84,0.13);">
+                    </div>
+                    <div class="col-lg-6">
+                        <h2 class="fw-bold mb-3">Vegan Shop - Sứ mệnh & Giá trị</h2>
+                        <p class="lead mb-3">Chúng tôi mang đến thực phẩm sạch, organic, an toàn cho sức khỏe và thân thiện với môi trường. Sứ mệnh của Vegan Shop là góp phần xây dựng cộng đồng sống xanh, khỏe mạnh và hạnh phúc hơn mỗi ngày.</p>
+                        <ul class="mb-3">
+                            <li><b>Chất lượng:</b> Sản phẩm tươi ngon, nguồn gốc rõ ràng, kiểm định nghiêm ngặt.</li>
+                            <li><b>Khách hàng là trung tâm:</b> Dịch vụ tận tâm, hỗ trợ 24/7.</li>
+                            <li><b>Bảo vệ môi trường:</b> Ưu tiên sản phẩm hữu cơ, đóng gói thân thiện.</li>
+                            <li><b>Đổi mới sáng tạo:</b> Không ngừng cải tiến để phục vụ tốt hơn.</li>
+                        </ul>
+                        <div class="mt-3">
+                            <a href="product.html" class="btn btn-success me-2"><i class="fas fa-leaf"></i> Xem sản phẩm</a>
+                            <a href="review2.html" class="btn btn-outline-warning"><i class="fas fa-star"></i> Đánh giá khách hàng</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Cam kết chất lượng -->
+        <section class="py-5 bg-light fade-in">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6">
+                        <h3 class="fw-bold mb-3">Cam kết chất lượng</h3>
+                        <ul>
+                            <li>100% sản phẩm hữu cơ, không hóa chất độc hại.</li>
+                            <li>Thu hoạch và giao hàng trong ngày để đảm bảo độ tươi ngon.</li>
+                            <li>Được kiểm định chất lượng định kỳ bởi các đơn vị uy tín.</li>
+                            <li>Chính sách đổi trả linh hoạt, bảo vệ quyền lợi khách hàng.</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="images/camket.png" alt="Cam kết chất lượng" class="img-slide-in slide-in-right" style="max-width: 320px; border-radius: 1.2rem; box-shadow: 0 8px 32px rgba(25,135,84,0.13);">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Đội ngũ sáng lập -->
+        <section class="py-5 fade-in">
+            <div class="container">
+                <h2 class="fw-bold text-center mb-5">Đội ngũ sáng lập</h2>
+                <div class="row justify-content-center g-4">
+                    <div class="col-md-4">
+                        <div class="card text-center p-4 h-100 shadow-sm slide-in-left">
+                            <img src="images/hinhnhom-1.jpg" alt="Nguyễn Phước Hậu" class="rounded-circle mx-auto mb-3" style="width: 110px; height: 110px; object-fit: cover;">
+                            <h5 class="fw-bold mb-1">Nguyễn Phước Hậu</h5>
+                            <p class="text-muted mb-2">Trưởng nhóm / Frontend Developer</p>
+                            <div class="mb-2">
+                                <a href="#" class="me-2"><i class="fab fa-facebook fa-lg"></i></a>
+                                <a href="#"><i class="fab fa-github fa-lg"></i></a>
+                            </div>
+                            <p class="mb-0">Đam mê lập trình web, thích UI/UX và công nghệ mới.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card text-center p-4 h-100 shadow-sm fade-in">
+                            <img src="images/hinhnhom-3.jpg" alt="Nguyễn Trung Toàn" class="rounded-circle mx-auto mb-3" style="width: 110px; height: 110px; object-fit: cover;">
+                            <h5 class="fw-bold mb-1">Nguyễn Trung Toàn</h5>
+                            <p class="text-muted mb-2">Backend Developer</p>
+                            <div class="mb-2">
+                                <a href="#" class="me-2"><i class="fab fa-facebook fa-lg"></i></a>
+                                <a href="#"><i class="fab fa-github fa-lg"></i></a>
+                            </div>
+                            <p class="mb-0">Yêu thích giải thuật, tối ưu hệ thống và bảo mật.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card text-center p-4 h-100 shadow-sm slide-in-right">
+                            <img src="images/hinhnhom-2.jpg" alt="Cống Nghiệp Đạt" class="rounded-circle mx-auto mb-3" style="width: 110px; height: 110px; object-fit: cover;">
+                            <h5 class="fw-bold mb-1">Cống Nghiệp Đạt</h5>
+                            <p class="text-muted mb-2">Tester / Hỗ trợ kỹ thuật</p>
+                            <div class="mb-2">
+                                <a href="#" class="me-2"><i class="fab fa-facebook fa-lg"></i></a>
+                                <a href="#"><i class="fab fa-github fa-lg"></i></a>
+                            </div>
+                            <p class="mb-0">Kiểm thử, đảm bảo chất lượng sản phẩm, hỗ trợ khách hàng.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CTA liên kết đến sản phẩm -->
+        <section class="container py-5 text-center fade-in">
+            <h3 class="fw-bold mb-4">Khám phá thực phẩm sạch, an toàn cho gia đình bạn!</h3>
+            <a href="product.html" class="btn btn-success btn-lg px-5"><i class="fas fa-leaf"></i> Xem sản phẩm</a>
+        </section>
+        <!-- Lịch sử hình thành & phát triển -->
+        <section class="py-5 fade-in bg-light">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0 text-center">
+                        <img src="images/lichsuhinhthanh.png" alt="Lịch sử phát triển" class="img-slide-in slide-in-left" style="max-width: 340px; border-radius: 1.2rem; box-shadow: 0 8px 32px rgba(25,135,84,0.13);">
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="fw-bold mb-3">Lịch sử hình thành & phát triển</h3>
+                        <ul>
+                            <li><b>2022:</b> Thành lập Vegan Shop với 3 thành viên sáng lập.</li>
+                            <li><b>2023:</b> Đạt 1.000+ khách hàng, mở rộng danh mục sản phẩm hữu cơ.</li>
+                            <li><b>2024:</b> Được chứng nhận "Thực phẩm sạch" bởi tổ chức ABC.</li>
+                            <li><b>Tương lai:</b> Tiếp tục phát triển, mở rộng hệ thống và nâng cao chất lượng dịch vụ.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Tầm nhìn & Sứ mệnh -->
+        <section class="py-5 fade-in">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 order-lg-2 mb-4 mb-lg-0 text-center">
+                        <img src="images/tamnhin.png" alt="Tầm nhìn & Sứ mệnh" class="img-slide-in slide-in-right" style="max-width: 340px; border-radius: 1.2rem; box-shadow: 0 8px 32px rgba(25,135,84,0.13);">
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <h3 class="fw-bold mb-3">Tầm nhìn & Sứ mệnh</h3>
+                        <p class="mb-2"><b>Tầm nhìn:</b> Trở thành hệ thống thực phẩm sạch hàng đầu Việt Nam, góp phần xây dựng cộng đồng sống xanh, khỏe mạnh.</p>
+                        <p class="mb-2"><b>Sứ mệnh:</b> Mang đến thực phẩm sạch, an toàn, chất lượng cao cho mọi gia đình Việt.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Giá trị cốt lõi -->
+        <section class="py-5 bg-light fade-in">
+            <div class="container">
+                <h3 class="fw-bold text-center mb-4">Giá trị cốt lõi</h3>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-3">
+                        <div class="card text-center p-4 h-100 shadow-sm fade-in">
+                            <div class="mb-2 fs-1 text-success"><i class="fas fa-leaf"></i></div>
+                            <h5 class="fw-bold mb-2">Chất lượng</h5>
+                            <p class="mb-0">Sản phẩm tươi ngon, kiểm định nghiêm ngặt, an toàn tuyệt đối.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card text-center p-4 h-100 shadow-sm fade-in">
+                            <div class="mb-2 fs-1 text-warning"><i class="fas fa-users"></i></div>
+                            <h5 class="fw-bold mb-2">Khách hàng là trung tâm</h5>
+                            <p class="mb-0">Lắng nghe, phục vụ tận tâm, hỗ trợ 24/7.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card text-center p-4 h-100 shadow-sm fade-in">
+                            <div class="mb-2 fs-1 text-primary"><i class="fas fa-recycle"></i></div>
+                            <h5 class="fw-bold mb-2">Bền vững</h5>
+                            <p class="mb-0">Bảo vệ môi trường, ưu tiên sản phẩm hữu cơ, đóng gói xanh.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card text-center p-4 h-100 shadow-sm fade-in">
+                            <div class="mb-2 fs-1 text-danger"><i class="fas fa-lightbulb"></i></div>
+                            <h5 class="fw-bold mb-2">Sáng tạo</h5>
+                            <p class="mb-0">Không ngừng đổi mới, nâng cao trải nghiệm khách hàng.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Quy trình kiểm soát chất lượng -->
+        <section class="py-5 fade-in">
+            <div class="container">
+                <h3 class="fw-bold text-center mb-4">Quy trình kiểm soát chất lượng</h3>
+                <div class="row g-4 justify-content-center align-items-center">
+                    <div class="col-md-2 text-center">
+                        <div class="fs-1 text-success"><i class="fas fa-seedling"></i></div>
+                        <div>Chọn lọc nguồn gốc</div>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <div class="fs-1 text-warning"><i class="fas fa-search"></i></div>
+                        <div>Kiểm tra chất lượng</div>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <div class="fs-1 text-primary"><i class="fas fa-box"></i></div>
+                        <div>Đóng gói an toàn</div>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <div class="fs-1 text-danger"><i class="fas fa-truck"></i></div>
+                        <div>Giao hàng nhanh</div>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <div class="fs-1 text-success"><i class="fas fa-thumbs-up"></i></div>
+                        <div>Hỗ trợ & đổi trả</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Đối tác & Chứng nhận -->
+        <section class="py-5 bg-light fade-in">
+            <div class="container">
+                <h3 class="fw-bold text-center mb-4">Đối tác & Chứng nhận</h3>
+                <div class="row g-4 justify-content-center align-items-center">
+                    <div class="col-md-2 text-center">
+                        <img src="images/doitac.png" alt="Đối tác 1" style="max-width: 90px;">
+                        <div class="mt-2">Đối tác A</div>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <img src="images/doitac.png" alt="Đối tác 2" style="max-width: 90px;">
+                        <div class="mt-2">Đối tác B</div>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <img src="images/doitac.png" alt="Đối tác 3" style="max-width: 90px;">
+                        <div class="mt-2">Đối tác C</div>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <img src="images/chungnhan.png" alt="Chứng nhận 1" style="max-width: 90px;">
+                        <div class="mt-2">Chứng nhận hữu cơ</div>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <img src="images/chungnhan.png" alt="Chứng nhận 2" style="max-width: 90px;">
+                        <div class="mt-2">Chứng nhận an toàn</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FAQ -->
+        <section class="py-5 fade-in">
+            <div class="container">
+                <h3 class="fw-bold text-center mb-4">Câu hỏi thường gặp</h3>
+                <div class="accordion" id="faqAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq1">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
+                                Sản phẩm có đảm bảo hữu cơ 100% không?
+                            </button>
+                        </h2>
+                        <div id="faqCollapse1" class="accordion-collapse collapse show" aria-labelledby="faq1" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">Tất cả sản phẩm của Vegan Shop đều được kiểm định và chứng nhận hữu cơ, không hóa chất độc hại.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+                                Giao hàng trong bao lâu?
+                            </button>
+                        </h2>
+                        <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faq2" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">Thông thường đơn hàng sẽ được giao trong 2-4 tiếng tại TP.HCM.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+                                Chính sách đổi trả như thế nào?
+                            </button>
+                        </h2>
+                        <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faq3" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">Bạn có thể đổi trả sản phẩm trong vòng 24h nếu có lỗi từ phía nhà cung cấp.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+                                Làm sao để liên hệ hỗ trợ?
+                            </button>
+                        </h2>
+                        <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faq4" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">Bạn có thể liên hệ qua hotline, email hoặc fanpage Facebook của Vegan Shop.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hình ảnh hoạt động thực tế -->
+        <section class="py-5 bg-light fade-in">
+            <div class="container">
+                <h3 class="fw-bold text-center mb-4">Hình ảnh hoạt động thực tế</h3>
+                <div class="row g-4">
+                    <div class="col-md-3 col-sm-6">
+                        <img src="images/hoatdong1.png" class="img-fluid rounded shadow-sm " alt="Hoạt động Vegan Shop">
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <img src="images/hoatdong1.png" class="img-fluid rounded shadow-sm " alt="Hoạt động Vegan Shop">
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <img src="images/hoatdong1.png" class="img-fluid rounded shadow-sm " alt="Hoạt động Vegan Shop">
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <img src="images/hoatdong1.png" class="img-fluid rounded shadow-sm " alt="Hoạt động Vegan Shop">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Footer ngoài swup -->
+    <footer class="footer-vegan text-light pt-5 pb-3 mt-4">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3"><i class="fa fa-leaf text-success me-2"></i><span>Vegan Shop</span></h5>
+                    <ul class="list-unstyled mb-2">
+                        <li class="mb-2"><i class="fa fa-map-marker text-success me-2"></i>123 Đường ABC, Quận 1, TP.HCM</li>
+                        <li class="mb-2"><i class="fa fa-envelope text-success me-2"></i>vegan@email.com</li>
+                        <li><i class="fa fa-phone text-success me-2"></i>0123 456 789</li>
+                    </ul>
+                    <div class="mt-3">
+                        <a href="#" class="footer-social me-3"><i class="fa fa-facebook fa-lg"></i></a>
+                        <a href="#" class="footer-social me-3"><i class="fa fa-instagram fa-lg"></i></a>
+                        <a href="#" class="footer-social"><i class="fa fa-twitter fa-lg"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3">Bản đồ</h5>
+                    <div class="ratio ratio-4x3 rounded shadow-sm footer-map">
+                        <iframe src="https://www.google.com/maps?q=10.7769,106.7009&z=15&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="border:0;"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3">Thành viên nhóm</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li>Nguyễn Phước Hậu</li>
+                        <li>Nguyễn Trung Toàn</li>
+                        <li>Cống Nghiệp Đạt</li>
+                    </ul>
+                    <div class="mt-4 text-md-end text-center">
+                        <span style="font-size:1rem;">&copy; 2022 Vegan Shop</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Scripts Swup và preload plugin trước main.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/swup@4"></script>
+    <script src="https://unpkg.com/@swup/preload-plugin@3"></script>
+    <script src="js/main.js"></script>
+    <script src="js/auth.js"></script>
+</body>
+</html>

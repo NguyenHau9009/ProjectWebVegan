@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Vegan Shop - Cung cấp rau củ quả sạch, thực phẩm organic tại TP.HCM"/>
+    <meta name="keywords" content="rau sạch, thực phẩm organic, vegan, healthy food" />
+    <meta property="og:image" content="https://yourdomain.com/images/logovegan-removebg-preview.png">
+    <meta property="og:title" content="Vegan Shop - Thực Phẩm Sạch Cho Cuộc Sống Khỏe">
+    <meta property="og:description" content="Vegan Shop - Cung cấp rau củ quả sạch, thực phẩm organic tại TP.HCM">
+    <meta property="og:image" content="https://yourdomain.com/images/logovegan.png">    
+    <meta property="og:url" content="https://yourdomain.com/">
+    <meta property="og:type" content="website">
+    <title>Vegan Shop - Thực Phẩm Sạch Cho Cuộc Sống Khỏe</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/android-chrome-192x192.png" />
+    <link rel="icon" type="image/svg+xml" href="images/android-chrome-192x192.png" />
+    <link rel="shortcut icon" href="images/android-chrome-192x192.png" />
+    
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+</head>
+<body>
+    <!-- Header ngoài swup -->
+    <header class="header-main fixed-top">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <!-- Logo -->
+                <a href="index.html" class="navbar-brand">
+                    <img src="images/logovegan-removebg-preview.png" alt="Vegan Shop Logo" height="80">
+                </a>
+                
+                <!-- Toggle button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Main menu -->
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Trang chủ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">Giới thiệu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="product.html">Sản phẩm</a></li>
+                        <li class="nav-item"><a class="nav-link" href="review2.html">Đánh giá</a></li>
+                        <li class="nav-item"><a class="nav-link" href="lienhe.html">Liên hệ</a></li>
+                    </ul>
+                    <div class="nav-actions">
+                        <button class="btn-user" id="btn-user" aria-label="Tài khoản"><i class="fas fa-user"></i></button>
+                        <button class="btn-search" aria-label="Tìm kiếm"><i class="fas fa-search"></i></button>
+                      
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Swup container đúng chuẩn -->
+    <div id="swup" class="transition-fade">
+        <!-- Hero Section -->
+        <section class="hero min-vh-100 d-flex align-items-center fade-in" id="home" id="swup">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- Bên trái: Tiêu đề, mô tả, nút -->
+                    <div class="col-lg-6">
+                        <h1 class="fw-bold mb-3" style="font-size:2.8rem; color:#B48A1A; line-height:1.2;">
+                            Thực phẩm tươi mát<br>Không chất bảo quản
+                        </h1>
+                        <div class="mb-4" style="font-size:1.3rem; color:#222; font-weight:500;">
+                            100% sản phẩm tự nhiên<br>Không hóa chất độc hại
+                        </div>
+                        <a href="#products" class="btn btn-warning px-5 py-2" style="font-size:1.2rem; border-radius:2rem; font-weight:600;color: #f6f2db;">
+                            tìm hiểu thêm
+                        </a>
+                    </div>
+                    <!-- Bên phải: Hình sản phẩm -->
+                    <div class="col-lg-6 text-center">
+                        <img class="img-slide-in hero-bg-img slide-in-right" src="images/background.png" alt="..." />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Home Section -->
+        
+
+        <!-- About Section -->
+        <section class="about py-5 bg-light fade-in" id="about" id="swup">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-5 mb-4 mb-md-0">
+                        <img class="img-slide-in slide-in-left" loading="lazy"  src="images/about-1.png" alt="" />
+                    </div>
+                    <div class="about-noidung col-md-7">
+                        <h2 class="fw-bold mb-3">liệu bạn có biết ?</h2>
+                        <p>
+                            Thực phẩm là một phần thiết yếu để có thể sống có thể hấp thụ dinh dưỡng để tồn tại chứ không vì mục đích sở thích cá nhân.
+                        </p>
+                        <p>
+                            Chúng thường có nguồn gốc từ động vật, thực vật, vi sinh vật hay các chế phẩm từ các nguồn nguyên liệu này. Đây thường là một thực phẩm liên quan đến tăng cường sức khỏe.
+                        </p>
+                        <p>
+                            Đa số các nguồn thực phẩm đều có nguồn gốc chính từ thực vật. Thức ăn lấy từ động vật thì nguồn nuôi dưỡng chúng cũng chính là thực vật. Các loại hạt được cho là có giá trị dinh dưỡng cao và được sử dụng nhiều để làm thức ăn cho động vật và cả con người.
+                        </p>
+                        <a href="#" class="btn btn-outline-success">tìm hiểu thêm</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Section -->
+        <section class="product py-5 fade-in" id="product">
+            <div class="container">
+                <div class="heading text-center mb-4">
+                    <h2 class="fw-bold">các sản phẩm bán chạy</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card h-100 shadow-sm fade-in">
+                            <img src="images/bap-cai-thao-1.jpg" class="card-img-top" alt="Cải Thảo" />
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Cải Thảo</h3>
+                                <div class="d-flex justify-content-center align-items-center gap-2">
+                                    <span class="fw-bold text-success">10.000</span>
+                                    <button class="btn btn-success btn-sm btn-buy" data-product="Cải Thảo"><a href="product.html" style="color: white;">Chi tiết</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card h-100 shadow-sm fade-in">
+                            <img src="images/hinh1.png" class="card-img-top" alt="Chanh" />
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Chanh</h3>
+                                <div class="d-flex justify-content-center align-items-center gap-2">
+                                    <span class="fw-bold text-success">11.000</span>
+                                    <button class="btn btn-success btn-sm btn-buy"><a href="product.html" style="color: white;">Chi tiết</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card h-100 shadow-sm fade-in">
+                            <img src="images/khoaitay.png" class="card-img-top" alt="Khoai Tây" />
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Khoai Tây</h3>
+                                <div class="d-flex justify-content-center align-items-center gap-2">
+                                    <span class="fw-bold text-success">12.000</span>
+                                    <button class="btn btn-success btn-sm btn-buy"><a href="product.html" style="color: white;">Chi tiết</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card h-100 shadow-sm fade-in">
+                            <img src="images/ot.png" class="card-img-top" alt="Ớt hiểm" />
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Ớt hiểm</h3>
+                                <div class="d-flex justify-content-center align-items-center gap-2">
+                                    <span class="fw-bold text-success">13.000</span>
+                                    <button class="btn btn-success btn-sm btn-buy"><a href="product.html" style="color: white;">Chi tiết</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Thêm các sản phẩm khác nếu muốn -->
+                </div>
+            </div>
+        </section>
+        <!-- Ưu điểm nổi bật của Vegan Shop -->
+        <section class="py-5 bg-light fade-in">
+            <div class="container">
+                <h2 class="fw-bold text-center mb-5">Tại sao chọn Vegan Shop?</h2>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card text-center p-4 h-100 shadow-sm slide-in-left">
+                            <div class="mb-2 fs-1 text-success"><i class="fas fa-leaf"></i></div>
+                            <h5 class="fw-bold mb-2">100% Hữu cơ</h5>
+                            <p class="mb-0">Sản phẩm tươi ngon, không hóa chất, an toàn cho sức khỏe.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card text-center p-4 h-100 shadow-sm fade-in">
+                            <div class="mb-2 fs-1 text-warning"><i class="fas fa-shipping-fast"></i></div>
+                            <h5 class="fw-bold mb-2">Giao hàng nhanh</h5>
+                            <p class="mb-0">Giao hàng tận nơi trong 2-4 tiếng tại TP.HCM, đóng gói cẩn thận.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card text-center p-4 h-100 shadow-sm slide-in-right">
+                            <div class="mb-2 fs-1 text-primary"><i class="fas fa-sync-alt"></i></div>
+                            <h5 class="fw-bold mb-2">Đổi trả dễ dàng</h5>
+                            <p class="mb-0">Đổi trả trong 24h nếu sản phẩm không đạt chất lượng.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card text-center p-4 h-100 shadow-sm fade-in">
+                            <div class="mb-2 fs-1 text-danger"><i class="fas fa-headset"></i></div>
+                            <h5 class="fw-bold mb-2">Hỗ trợ tận tâm</h5>
+                            <p class="mb-0">Đội ngũ tư vấn, hỗ trợ khách hàng 24/7, thân thiện, chuyên nghiệp.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card text-center p-4 h-100 shadow-sm fade-in">
+                            <div class="mb-2 fs-1 text-success"><i class="fas fa-tags"></i></div>
+                            <h5 class="fw-bold mb-2">Giá tốt mỗi ngày</h5>
+                            <p class="mb-0">Nhiều ưu đãi, giá cạnh tranh, tiết kiệm cho mọi gia đình.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card text-center p-4 h-100 shadow-sm fade-in">
+                            <div class="mb-2 fs-1 text-warning"><i class="fas fa-award"></i></div>
+                            <h5 class="fw-bold mb-2">Đảm bảo chất lượng</h5>
+                            <p class="mb-0">Kiểm định nghiêm ngặt, cam kết hoàn tiền nếu không hài lòng.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Events Section -->
+        <section class="events py-5 bg-white fade-in" id="events">
+            <div class="container">
+                <div class="heading text-center mb-4">
+                    <h2 class="fw-bold">Sự Kiện Trong Tháng</h2>
+                </div>
+                <div class="row justify-content-center g-4">
+                    <div class="col-md-4 col-sm-6 d-flex justify-content-center">
+                        <div class="event-img-wrapper p-3 bg-light rounded shadow-sm slide-in-left">
+                            <img src="images/uudai.png" alt="Ưu đãi" class="img-fluid event-img  ">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 d-flex justify-content-center">
+                        <div class="event-img-wrapper p-3 bg-light rounded shadow-sm">
+                            <img src="images/voucher.png" alt="Voucher" class="img-fluid event-img " style="max-height:220px;object-fit:contain;">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 d-flex justify-content-center">
+                        <div class="event-img-wrapper p-3 bg-light rounded shadow-sm">
+                            <img src="images/giamgia.png" alt="Giảm giá" class="img-fluid event-img " style="max-height:220px;object-fit:contain;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact py-5 bg-light" id="contact">
+            <div class="container">
+                <div class="heading text-center mb-4">
+                    <h2 class="fw-bold">Liên hệ</h2>
+                </div>
+                <div class="row align-items-center">
+                    <!-- Form liên hệ bên trái -->
+                    <div class="col-lg-6 order-lg-1 order-2">
+                        <form action="" class="mx-auto" style="max-width:500px;">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Họ và tên" required />
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Email" required />
+                            </div>
+                            <div class="mb-3">
+                                <input type="tel" class="form-control" placeholder="Số điện thoại" required />
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" placeholder="Nội dung" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-success w-100">Gửi</button>
+                        </form>
+                    </div>
+                    <!-- Chỗ ghép hình bên phải -->
+                    <div class="col-lg-6 order-lg-2 order-1 mb-4 mb-lg-0 text-center">
+                        <!-- Thay ảnh dưới đây bằng ảnh bạn muốn ghép -->
+                        <img src="images/lienhe.png" alt="Liên hệ Vegan Shop" class="img-fluid rounded shadow " style="max-width: 320px;">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer ngoài swup -->
+    <footer class="footer-vegan text-light pt-5 pb-3 mt-4">
+        <div class="container">
+            <div class="row gy-4">
+                <!-- Thông tin liên hệ -->
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3">
+                        <i class="fa fa-leaf text-success me-2"></i>
+                        <span>Vegan Shop</span>
+                    </h5>
+                    <ul class="list-unstyled mb-2">
+                        <li class="mb-2"><i class="fa fa-map-marker text-success me-2"></i>123 Đường ABC, Quận 1, TP.HCM</li>
+                        <li class="mb-2"><i class="fa fa-envelope text-success me-2"></i>vegan@email.com</li>
+                        <li><i class="fa fa-phone text-success me-2"></i>0123 456 789</li>
+                    </ul>
+                    <div class="mt-3">
+                        <a href="#" class="footer-social me-3"><i class="fa fa-facebook fa-lg"></i></a>
+                        <a href="#" class="footer-social me-3"><i class="fa fa-instagram fa-lg"></i></a>
+                        <a href="#" class="footer-social"><i class="fa fa-twitter fa-lg"></i></a>
+                    </div>
+                </div>
+                <!-- Google Map -->
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3">Bản đồ</h5>
+                    <div class="ratio ratio-4x3 rounded shadow-sm footer-map">
+                        <iframe src="https://www.google.com/maps?q=10.7769,106.7009&z=15&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="border:0;"></iframe>
+                    </div>
+                </div>
+                <!-- Thông tin nhóm -->
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3">Thành viên nhóm</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li>Nguyễn Phước Hậu</li>
+                        <li>Nguyễn Trung Toàn</li>
+                        <li>Cóong Nghiệp Đạt</li>
+                    </ul>
+                    <div class="mt-4 text-md-end text-center">
+                        <span style="font-size:1rem;">
+                            &copy; 2025 Vegan Shop
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Popup Giảm Giá -->
+<div id="popup-giamgia-overlay" style="position:fixed;z-index:2000;top:0;left:0;width:100vw;height:100vh;background:rgba(0,0,0,0.45);backdrop-filter:blur(3px);display:none;align-items:center;justify-content:center;">
+  <div id="popup-giamgia" style="position:relative;max-width:90vw;max-height:90vh;">
+    <button id="close-giamgia" aria-label="Đóng" style="position:absolute;top:10px;right:10px;background:#fff;border:none;border-radius:50%;width:36px;height:36px;font-size:1.5rem;box-shadow:0 2px 8px rgba(0,0,0,0.08);z-index:10;">&times;</button>
+    <img src="images/voucher.png" alt="Giảm giá" style="max-width:100%;max-height:80vh;border-radius:1rem;box-shadow:0 8px 32px rgba(0,0,0,0.18);">
+  </div>
+</div>
+
+    <!-- Popup Đăng nhập/Đăng ký -->
+<div id="popup-login-overlay" class="popup-overlay">
+  <div id="popup-login" class="popup-login-box">
+    <button id="close-login" aria-label="Đóng" class="popup-close">&times;</button>
+    <div class="popup-logo">
+      
+      <div class="popup-logo-text">
+        <span class="popup-logo-title">Vegan</span>
+        <span class="popup-logo-sub">Fresh & Organic</span>
+      </div>
+    </div>
+    <div id="login-form">
+      <h2 class="popup-title">Đăng Nhập</h2>
+      <form autocomplete="off">
+        <div class="mb-3">
+          <input type="email" class="form-control" placeholder="Email" required id="login-email" />
+        </div>
+        <div class="mb-3">
+          <input type="password" class="form-control" placeholder="Mật khẩu" required />
+        </div>
+        <button type="submit" class="btn btn-success w-100 mb-2 popup-btn">Đăng Nhập</button>
+        <div class="text-center popup-switch">
+          Bạn chưa có tài khoản? <a href="#" id="show-register" class="text-success fw-bold">Đăng ký</a>
+        </div>
+      </form>
+    </div>
+    <div id="register-form" style="display:none;">
+      <h2 class="popup-title">Đăng Ký</h2>
+      <form autocomplete="off">
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Họ và tên" required id="register-name" />
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" placeholder="Email" required />
+        </div>
+        <div class="mb-3">
+          <input type="password" class="form-control" placeholder="Mật khẩu" required />
+        </div>
+        <div class="mb-3">
+          <input type="password" class="form-control" placeholder="Nhập lại mật khẩu" required />
+        </div>
+        <button type="submit" class="btn btn-success w-100 mb-2 popup-btn">Đăng Ký</button>
+        <div class="text-center popup-switch">
+          Đã có tài khoản? <a href="#" id="show-login" class="text-success fw-bold">Đăng nhập</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+    <!-- Popup thêm giỏ hàng thành công -->
+<div id="cart-success-popup" style="display:none;position:fixed;z-index:3000;left:0;top:0;width:100vw;height:100vh;background:rgba(0,0,0,0.18);align-items:center;justify-content:center;">
+  <div style="background:#fff;border-radius:18px;max-width:400px;width:95vw;padding:28px 24px 18px 24px;box-shadow:0 8px 32px rgba(44,62,80,0.18);position:relative;">
+    <button id="close-cart-success-popup" style="position:absolute;top:12px;right:16px;background:none;border:none;font-size:1.3rem;">&times;</button>
+    <div class="d-flex align-items-center mb-3">
+      <span class="me-2" style="color:#27ae60;font-size:1.5rem;"><i class="fas fa-check-circle"></i></span>
+      <span class="fw-bold" style="font-size:1.1rem;">Mua hàng thành công</span>
+    </div>
+    <div class="d-flex align-items-center mb-2">
+      <img id="cart-success-img" src="" alt="" style="width:54px;height:54px;object-fit:cover;border-radius:8px;margin-right:12px;">
+      <div>
+        <div id="cart-success-name" class="fw-semibold"></div>
+        <div><span id="cart-success-price" class="text-warning fw-bold"></span> <span id="cart-success-size" class="text-muted small"></span></div>
+      </div>
+    </div>
+    <div class="mb-2" id="cart-success-qty"></div>
+    <div class="mb-3 text-center"><span id="cart-success-count" class="fw-bold text-danger"></span></div>
+    <button id="cart-success-checkout" class="btn btn-warning w-100" style="font-size:1.1rem;">Tiến hành thanh toán</button>
+  </div>
+</div>
+
+    <!-- Schema.org markup for Google+ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Cải Thảo",
+  "image": "https://yourdomain.com/images/bap-cai-thao-1.jpg",
+  "description": "Cải Thảo tươi sạch, không hóa chất, bán tại Vegan Shop.",
+  "brand": "Vegan Shop",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "VND",
+    "price": "10000",
+    "availability": "https://schema.org/InStock"
+  }
+}
+</script>
+
+    <!-- Modal Chi tiết sản phẩm hiện đại -->
+    <div class="modal fade" id="productDetailModal" tabindex="-1" aria-labelledby="productDetailModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body p-4">
+            <div class="row g-4">
+              <!-- Gallery ảnh -->
+              <div class="col-md-6">
+                <div class="text-center mb-3">
+                  <img src="" alt="" class="img-fluid rounded main-product-img" style="max-height: 320px; object-fit: contain;">
+                </div>
+                <div class="d-flex justify-content-center gap-2 product-thumbnails"></div>
+              </div>
+              <!-- Thông tin chi tiết -->
+              <div class="col-md-6">
+                <h4 class="modal-title fw-bold mb-2 product-title"></h4>
+                <div class="mb-2">
+                  <span class="old-price text-decoration-line-through text-muted me-2"></span>
+                  <span class="new-price fw-bold text-warning me-2"></span>
+                  <span class="discount text-success"></span>
+                </div>
+                <ul class="desc-list mb-2"></ul>
+                <div class="desc-detail mb-3 small text-muted"></div>
+                <div class="mb-3">
+                  <label class="fw-semibold mb-1">Kích thước:</label>
+                  <div class="sizes btn-group" role="group"></div>
+                </div>
+                <div class="mb-3 d-flex align-items-center gap-2">
+                  <label class="fw-semibold mb-1 mb-0">Số lượng:</label>
+                  <button class="btn btn-outline-secondary btn-sm btn-qty-minus">-</button>
+                  <input type="number" class="form-control form-control-sm qty-input" value="1" min="1" style="width:60px;">
+                  <button class="btn btn-outline-secondary btn-sm btn-qty-plus">+</button>
+                  <span class="ms-2 stock-status text-success small">Còn hàng</span>
+                </div>
+                <div class="d-flex gap-2">
+                  <button class="btn btn-warning flex-fill btn-add-cart-modal">
+                    <i class="fas fa-shopping-cart me-2"></i>Thêm giỏ hàng
+                  </button>
+                  <button class="btn btn-success flex-fill btn-buy-now-modal">Mua ngay</button>
+                </div>
+              </div>
+            </div>
+            <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/swup@4"></script>
+    <script src="https://unpkg.com/@swup/preload-plugin@3"></script>
+    <script src="https://unpkg.com/swup-plugin-scroll-plugin@1.0.0/dist/index.min.js"></script>
+    <script src="https://unpkg.com/swup-plugin-preload-polyfill@1.0.0/dist/index.min.js"></script>
+    <script src="https://unpkg.com/swup-plugin-scroll-lock@1.0.0/dist/index.min.js"></script>
+    <script src="https://unpkg.com/swup-plugin-preload@1.0.0/dist/index.min.js"></script>
+    <script src="https://unpkg.com/swup-plugin-transition-style@1.0.0/dist/index.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/auth.js"></script>
+</body>
+</html>

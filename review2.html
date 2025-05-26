@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Đánh giá khách hàng về Vegan Shop - Thực phẩm sạch, organic, healthy food"/>
+    <meta name="keywords" content="review, đánh giá, khách hàng, vegan, healthy food" />
+    <title>Đánh giá khách hàng - Vegan Shop</title>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Header ngoài swup -->
+    <header class="header-main fixed-top">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">
+                    <img src="images/logovegan-removebg-preview.png" alt="Vegan Shop Logo" height="80">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Trang chủ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">Giới thiệu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="product.html">Sản phẩm</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="review2.html">Đánh Giá</a></li>
+                        <li class="nav-item"><a class="nav-link" href="lienhe.html">Liên hệ</a></li>
+                    </ul>
+                    <div class="nav-actions">
+                        <button class="btn-user" id="btn-user" aria-label="Tài khoản"><i class="fas fa-user"></i></button>
+                        <button class="btn-search" aria-label="Tìm kiếm"><i class="fas fa-search"></i></button>
+                            <span class="cart-count" id="cart-count">0</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Swup container bọc toàn bộ nội dung chính, không chứa header/footer -->
+    <div id="swup" class="transition-fade">
+        <!-- Tổng quan đánh giá -->
+        <section class="review-header text-center py-5 mt-5 fade-in">
+            <div class="container">
+                <h2 class="fw-bold mb-3">Khách hàng nói gì về Vegan Shop?</h2>
+                <p class="lead mb-4">Chúng tôi tự hào mang đến thực phẩm sạch, tươi ngon và dịch vụ tận tâm cho hàng ngàn khách hàng mỗi ngày.</p>
+                <div class="mb-3">
+                    <span class="fs-2 text-warning">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </span>
+                    <span class="fw-bold ms-2">4.8/5.0</span>
+                    <span class="text-muted ms-2">(Dựa trên 1.200+ đánh giá thực tế)</span>
+                </div>
+                <a href="product.html" class="btn btn-warning px-4 mt-2"><i class="fas fa-shopping-basket"></i> Xem sản phẩm</a>
+            </div>
+        </section>
+        <!-- Các review khách hàng -->
+        <section class="container py-5 fade-in" id="customer-reviews">
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                    <div class="card review-card p-4 h-100 shadow-sm slide-in-left">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="images/hinhnhom-1.jpg" alt="avatar" class="rounded-circle me-3" style="width: 60px; height: 60px; object-fit: cover;">
+                            <div>
+                                <h6 class="fw-bold mb-0">Nguyễn Thị Mai</h6>
+                                <div class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-2">"Rau củ ở đây rất tươi, đóng gói cẩn thận. Mình đặt hàng online mà nhận được sản phẩm như ngoài siêu thị lớn. Sẽ ủng hộ dài lâu!"</p>
+                        <div class="d-flex align-items-center mt-3">
+                            <img src="images/bap-cai-thao-1.jpg" alt="Cải Thảo" style="width: 40px; height: 40px; object-fit: cover; border-radius: 8px;">
+                            <span class="ms-2 text-muted">Cải Thảo</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card review-card p-4 h-100 shadow-sm fade-in">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="images/hinhnhom-3.jpg" alt="avatar" class="rounded-circle me-3" style="width: 60px; height: 60px; object-fit: cover;">
+                            <div>
+                                <h6 class="fw-bold mb-0">Trần Văn Bình</h6>
+                                <div class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-2">"Dịch vụ giao hàng rất nhanh, nhân viên thân thiện. Mình thích nhất là khoai tây và cà chua ở đây, vị rất ngon và an toàn, tươi sạch, không hóa chất độc hại."</p>
+                        <div class="d-flex align-items-center mt-3">
+                            <img src="images/khoaitay.png" alt="Khoai Tây" style="width: 40px; height: 40px; object-fit: cover; border-radius: 8px;">
+                            <span class="ms-2 text-muted">Khoai Tây</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card review-card p-4 h-100 shadow-sm slide-in-right">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="images/hinhnhom-2.jpg" alt="avatar" class="rounded-circle me-3" style="width: 60px; height: 60px; object-fit: cover;">
+                            <div>
+                                <h6 class="fw-bold mb-0">Lê Thị Hồng</h6>
+                                <div class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-2">"Mình rất hài lòng với chất lượng sản phẩm và dịch vụ của Vegan Shop. Đặc biệt là ớt chuông và bí đỏ, rất tươi và ngọt, không hóa chất độc hại, không gây hại."</p>
+                        <div class="d-flex align-items-center mt-3">
+                            <img src="images/otchuong.png" alt="Ớt Chuông" style="width: 40px; height: 40px; object-fit: cover; border-radius: 8px;">
+                            <span class="ms-2 text-muted">Ớt Chuông</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card review-card p-4 h-100 shadow-sm fade-in">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="images/hinhnhom-1.jpg" alt="avatar" class="rounded-circle me-3" style="width: 60px; height: 60px; object-fit: cover;">
+                            <div>
+                                <h6 class="fw-bold mb-0">Phạm Minh Tuấn</h6>
+                                <div class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-2">"Tôi rất thích các loại hạt dinh dưỡng ở Vegan Shop. Đóng gói đẹp, giao hàng nhanh, giá hợp lý. Sẽ giới thiệu cho bạn bè!"</p>
+                        <div class="d-flex align-items-center mt-3">
+                            <img src="images/khoaimon.png" alt="Hạt Dinh Dưỡng" style="width: 40px; height: 40px; object-fit: cover; border-radius: 8px;">
+                            <span class="ms-2 text-muted">Hạt Dinh Dưỡng</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card review-card p-4 h-100 shadow-sm slide-in-left">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="images/hinhnhom-3.jpg" alt="avatar" class="rounded-circle me-3" style="width: 60px; height: 60px; object-fit: cover;">
+                            <div>
+                                <h6 class="fw-bold mb-0">Lưu Thị Lan</h6>
+                                <div class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-2">"Mình đặt thử nước ép và salad, vị rất tươi, đóng chai sạch sẽ. Nhân viên tư vấn nhiệt tình, sẽ quay lại mua tiếp!"</p>
+                        <div class="d-flex align-items-center mt-3">
+                            <img src="images/cucai.jpg" alt="Nước Ép" style="width: 40px; height: 40px; object-fit: cover; border-radius: 8px;">
+                            <span class="ms-2 text-muted">Nước Ép</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card review-card p-4 h-100 shadow-sm slide-in-right">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="images/hinhnhom-2.jpg" alt="avatar" class="rounded-circle me-3" style="width: 60px; height: 60px; object-fit: cover;">
+                            <div>
+                                <h6 class="fw-bold mb-0">Ngô Văn Hùng</h6>
+                                <div class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-2">"Tôi là người ăn chay trường, rất khó tính với thực phẩm. Nhưng các loại rau củ ở đây thực sự tươi ngon, an toàn, giá hợp lý."</p>
+                        <div class="d-flex align-items-center mt-3">
+                            <img src="images/cachua.png" alt="Cà Rốt" style="width: 40px; height: 40px; object-fit: cover; border-radius: 8px;">
+                            <span class="ms-2 text-muted">Cà Rốt</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CTA liên kết đến sản phẩm -->
+        <section class="container py-5 text-center fade-in">
+            <h3 class="fw-bold mb-4">Bạn muốn trải nghiệm thực phẩm sạch?</h3>
+            <a href="product.html" class="btn btn-success btn-lg px-5"><i class="fas fa-leaf"></i> Khám phá sản phẩm</a>
+        </section>
+    </div>
+    <!-- Footer ngoài swup -->
+    <footer class="footer-vegan text-light pt-5 pb-3 mt-4">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3"><i class="fa fa-leaf text-success me-2"></i><span>Vegan Shop</span></h5>
+                    <ul class="list-unstyled mb-2">
+                        <li class="mb-2"><i class="fa fa-map-marker text-success me-2"></i>123 Đường ABC, Quận 1, TP.HCM</li>
+                        <li class="mb-2"><i class="fa fa-envelope text-success me-2"></i>vegan@email.com</li>
+                        <li><i class="fa fa-phone text-success me-2"></i>0123 456 789</li>
+                    </ul>
+                    <div class="mt-3">
+                        <a href="#" class="footer-social me-3"><i class="fa fa-facebook fa-lg"></i></a>
+                        <a href="#" class="footer-social me-3"><i class="fa fa-instagram fa-lg"></i></a>
+                        <a href="#" class="footer-social"><i class="fa fa-twitter fa-lg"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3">Bản đồ</h5>
+                    <div class="ratio ratio-4x3 rounded shadow-sm footer-map">
+                        <iframe src="https://www.google.com/maps?q=10.7769,106.7009&z=15&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="border:0;"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3">Thành viên nhóm</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li>Nguyễn Phước Hậu</li>
+                        <li>Nguyễn Trung Toàn</li>
+                        <li>Cống Nghiệp Đạt</li>
+                    </ul>
+                    <div class="mt-4 text-md-end text-center">
+                        <span style="font-size:1rem;">&copy; 2022 Vegan Shop</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Scripts Swup và preload plugin trước main.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/swup@4"></script>
+    <script src="https://unpkg.com/@swup/preload-plugin@3"></script>
+    <script src="js/main.js"></script>
+    <script src="js/auth.js"></script>
+</body>
+</html>
