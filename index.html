@@ -58,6 +58,22 @@
                 </div>
             </div>
         </nav>
+
+        <!-- Nút mở menu (hamburger) -->
+        <button class="navbar-toggler" id="openMenuBtn" type="button" aria-label="Mở menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu mobile off-canvas -->
+        <nav class="mobile-menu" id="mobileMenu">
+            <button class="btn-close-menu" id="closeMenuBtn" aria-label="Đóng menu">&times;</button>
+            <a class="nav-link" href="index.html">Trang Chủ</a>
+            <a class="nav-link" href="product.html">Sản Phẩm</a>
+            <a class="nav-link" href="about.html">Giới Thiệu</a>
+            <a class="nav-link" href="review2.html">Đánh Giá</a>
+            <a class="nav-link" href="lienhe.html">Liên Hệ</a>
+        </nav>
+        <div class="menu-overlay" id="menuOverlay"></div>
     </header>
 
     <!-- Swup container đúng chuẩn -->
@@ -486,5 +502,25 @@
     <script src="https://unpkg.com/swup-plugin-transition-style@1.0.0/dist/index.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/auth.js"></script>
+    <script>
+      document.getElementById('openMenuBtn').onclick = function() {
+        document.getElementById('mobileMenu').classList.add('active');
+        document.getElementById('menuOverlay').classList.add('active');
+      };
+      document.getElementById('closeMenuBtn').onclick = function() {
+        document.getElementById('mobileMenu').classList.remove('active');
+        document.getElementById('menuOverlay').classList.remove('active');
+      };
+      document.getElementById('menuOverlay').onclick = function() {
+        document.getElementById('mobileMenu').classList.remove('active');
+        document.getElementById('menuOverlay').classList.remove('active');
+      };
+      document.querySelectorAll('.mobile-menu .nav-link').forEach(function(link) {
+        link.onclick = function() {
+          document.getElementById('mobileMenu').classList.remove('active');
+          document.getElementById('menuOverlay').classList.remove('active');
+        };
+      });
+    </script>
 </body>
 </html>
