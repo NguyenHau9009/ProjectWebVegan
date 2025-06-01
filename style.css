@@ -708,141 +708,144 @@ to   { opacity: 1; }
 from { transform: scale(0.8); opacity: 0; }
 to   { transform: scale(1); opacity: 1; }
 }
-/* Popup overlay */
+/* Popup đăng nhập/đăng ký */
 .popup-overlay {
-position: fixed;
-z-index: 3000;
-top: 0; left: 0; width: 100vw; height: 100vh;
-background: #fdfcf7e6;
-display: none;
-align-items: center;
-justify-content: center;
-animation: fadeIn 0.3s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
 }
-/* Popup box */
+
 .popup-login-box {
-background: #fffdfa;
-max-width: 400px;
-width: 95vw;
-padding: 2.5rem 2rem 2rem 2rem;
-border-radius: 1.5rem;
-box-shadow: 0 8px 32px rgba(0,0,0,0.10);
-position: relative;
-animation: popupZoomIn 0.35s;
-display: flex;
-flex-direction: column;
-align-items: center;
+    background: #fff;
+    border-radius: 16px;
+    padding: 32px;
+    width: 90%;
+    max-width: 420px;
+    position: relative;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
+
 .popup-close {
-position: absolute;
-top: 18px; right: 18px;
-background: #fff;
-border: none;
-border-radius: 50%;
-width: 36px; height: 36px;
-font-size: 1.5rem;
-color: #083525;
-box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-cursor: pointer;
-transition: background 0.2s;
-z-index: 10;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #666;
+    transition: color 0.2s;
 }
+
 .popup-close:hover {
-background: #e9ecef;
+    color: #333;
 }
+
 .popup-logo {
-display: flex;
-flex-direction: column;
-align-items: center;
-margin-bottom: 1.2rem;
+    text-align: center;
+    margin-bottom: 24px;
 }
-.popup-logo img {
-width: 70px;
-height: 70px;
-object-fit: contain;
-margin-bottom: 0.2rem;
+
+.popup-logo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 .popup-logo-title {
-font-family: 'Montserrat', 'Noto Sans', Arial, sans-serif;
-font-size: 2.7rem;
-font-weight: 800;
-color: #083525;
-letter-spacing: 1px;
-display: block;
-text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    color: #2ecc71;
 }
+
 .popup-logo-sub {
-font-size: 1.1rem;
-color: #083525;
-font-weight: 500;
-letter-spacing: 0.5px;
-margin-top: -2px;
-display: block;
-text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin-top: 4px;
 }
+
 .popup-title {
-font-size: 2.1rem;
-font-weight: 700;
-color: #083525;
-text-align: center;
-margin-bottom: 1.2rem;
-margin-top: 0.2rem;
-letter-spacing: 1px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    text-align: center;
 }
-.popup-login-box input.form-control {
-border-radius: 1rem;
-border: 1.5px solid #e0e0e0;
-font-size: 1.15rem;
-padding: 1rem 1.2rem;
-margin-bottom: 0.7rem;
-background: #f9f9f7;
-transition: border 0.2s;
-}
-.popup-login-box input.form-control:focus {
-border-color: #083525;
-box-shadow: 0 0 0 2px rgba(8,53,37,0.08);
-}
+
 .popup-btn {
-border-radius: 2rem !important;
-font-weight: 700 !important;
-font-size: 1.2rem !important;
-padding: 0.7rem 0 !important;
-background: #083525 !important;
-color: #fff !important;
-border: none;
-margin-top: 0.2rem;
-margin-bottom: 0.7rem;
-box-shadow: 0 2px 8px rgba(8,53,37,0.08);
-transition: background 0.2s;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: all 0.2s;
 }
+
 .popup-btn:hover {
-background: #68904D !important;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(46, 204, 113, 0.2);
 }
+
 .popup-switch {
-font-size: 1.08rem;
-color: #222;
-margin-top: 0.5rem;
+    font-size: 14px;
+    color: #666;
 }
-@media (max-width: 500px) {
+
+.popup-switch a {
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.popup-switch a:hover {
+    color: #27ae60 !important;
+}
+
+/* Form controls */
+.form-control {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    transition: all 0.2s;
+}
+
+.form-control:focus {
+    border-color: #2ecc71;
+    box-shadow: 0 0 0 3px rgba(46, 204, 113, 0.1);
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .popup-login-box {
-  padding: 1.2rem 0.5rem 1rem 0.5rem;
+    animation: fadeIn 0.3s ease-out;
 }
-.popup-title {
-  font-size: 1.5rem;
-}
-.popup-logo-title {
-  font-size: 2rem;
-}
-}
+
 /* ===================== ANIMATION ===================== */
 @keyframes fadeIn {
 from { opacity: 0; transform: translateY(30px); }
 to { opacity: 1; transform: none; }
 }
+
 @keyframes slideInLeft {
 from { opacity: 0; transform: translateX(-40px); }
 to { opacity: 1; transform: none; }
 }
+
 @keyframes slideInRight {
 from { opacity: 0; transform: translateX(40px); }
 to { opacity: 1; transform: none; }
